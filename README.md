@@ -34,6 +34,7 @@ Preprocessing is implemented using scikit-learn pipelines to ensure consistent t
 
 ** Missing values imputed using mean
 ** Standard scaling applied for scale-sensitive models
+
 * Categorical Features
   
 ** Missing values imputed using most frequent category
