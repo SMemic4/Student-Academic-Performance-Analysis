@@ -31,14 +31,12 @@ All model selection and hyperparameter tuning are conducted exclusively on the t
 Preprocessing is implemented using scikit-learn pipelines to ensure consistent transformations across folds:
 
 * Numerical Features
-
-** Missing values imputed using mean
-** Standard scaling applied for scale-sensitive models
+  * Missing values imputed using mean
+  * Standard scaling applied for scale-sensitive models
 
 * Categorical Features
-  
-** Missing values imputed using most frequent category
-** One-hot encoding
+  * Missing values imputed using most frequent category
+  * One-hot encoding
 
 Missing values imputed using most frequent category
 
